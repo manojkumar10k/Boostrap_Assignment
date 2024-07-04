@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(182, 173, 173);
+  }
+  .container-fluid{
+    background-color: #212529;
+  }
+  .nav-link {
+    color: #ffff;
+  }
+  
+  nav,.container-fluid{
+    background-color: rgb(20, 20, 192);
+  }
+  .navbar-brand{
+    color: #ffff;
+  }
+  .form-control{
+    color:white;
+  }
+  .btn-outline-success{
+    color: white ;
+    border: 2px solid white;
+  }
+  .form-control{
+    color: white ;
+    border: 2px solid white;
+
+  }
+
+  /* img slider  */
+
+  h3 , p {
+    color: #212529;
+  }
+
+
+
+
+  .carousel-item img{
+    height: 600px;
+    width: 100%;
+  }
+  
+  /* card  */
+  .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    background-color: grey;
+  }
+  .card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+    padding: 80px 200px;
+    gap: 40px;
+  }
+  .main img{
+    height: 100%;
+    width: 500px;
+  }
+  p{
+    font-size: 25px;
+  }
+
+  .col-md-6 img{
+    height: 300px;
+    width: 500px;
+  }
+  .container{
+    margin-bottom: 50px;
+  }
+  @media (max-width: 790px) { 
+    .card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+   }
